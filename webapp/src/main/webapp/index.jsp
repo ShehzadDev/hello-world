@@ -1,37 +1,53 @@
-<form action="action_page.php">
-  <div class="container">
-    <h1>New user Register for DevOps Learning</h1>
-    <p>Please fill in this form to create an account.</p>
-    <hr>
-     
-    <label for="Name"><b>Enter Name</b></label>
-    <input type="text" placeholder="Enter Full Name" name="Name" id="Name" required>
-    <br>
-    
-    <label for="mobile"><b>Enter mobile</b></label>
-    <input type="text" placeholder="Enter moible number" name="mobile" id="mobile" required>
-    <br>
-
-    <label for="email"><b>Enter Email</b></label>
-    <input type="text" placeholder="Enter Email" name="email" id="email" required>
-    <br>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
-    <br>
-
-    <label for="psw-repeat"><b>Repeat Password</b></label>
-    <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
-    <hr>
-    <br>
-    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
-    <button type="submit" class="registerbtn">Register</button>
-  </div>
-  <div class="container signin">
-    <p>Already have an account? <a href="#">Sign in</a>.</p>
-  </div>
-
-   <h1> Thankyou, Happy Learning </h1>
-
-  
-</form>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shehzad Shifa</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome CDN for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body class="bg-gray-100 text-gray-800">
+    <div class="flex flex-col items-center justify-center min-h-screen p-4">
+      <!-- Image Container -->
+      <div class="mb-4">
+        <img
+          src="https://avatars.githubusercontent.com/u/77115890"
+          alt="Profile Picture"
+          class="rounded-full w-32 h-32 object-cover border-4 border-blue-500 shadow-lg"
+        />
+      </div>
+      <!-- Social Icons Container -->
+      <div class="flex space-x-6">
+        <a
+          href="https://twitter.com/shehzadshifa1"
+          class="text-blue-500 hover:text-blue-700 text-2xl"
+        >
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://facebook.com/shehzadshifa"
+          class="text-blue-700 hover:text-blue-900 text-2xl"
+        >
+          <i class="fab fa-facebook"></i>
+        </a>
+        <a
+          href="https://linkedin.com/in/shehzadshifa"
+          class="text-blue-600 hover:text-blue-800 text-2xl"
+        >
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a
+          href="https://instagram.com/shehzadshifa"
+          class="text-pink-500 hover:text-pink-700 text-2xl"
+        >
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
