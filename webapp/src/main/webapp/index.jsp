@@ -79,7 +79,7 @@
           <p class="text-gray-700">
             Email:
             <a
-              href="mailto:shehzad@example.com"
+              href="mailto:shehzadshifa@gmail.com"
               class="text-blue-500 hover:underline"
               >shehzadshifa@gmail.com</a
             >
