@@ -24,12 +24,6 @@
       <!-- Social Icons Container -->
       <div class="flex space-x-6">
         <a
-          href="https://twitter.com/shehzadshifa1"
-          class="text-blue-500 hover:text-blue-700 text-2xl"
-        >
-          <i class="fab fa-twitter"></i>
-        </a>
-        <a
           href="https://facebook.com/shehzadshifa"
           class="text-blue-700 hover:text-blue-900 text-2xl"
         >
